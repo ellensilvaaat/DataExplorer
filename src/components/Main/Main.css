@@ -1,0 +1,32 @@
+/* src/components/Main/Main.css */
+.main {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  margin-top: 30px;
+}
+
+.main__title {
+  font-size: 36px;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+.main__description {
+  font-size: 18px;
+  color: #666;
+  max-width: 700px;
+  margin: 0 auto 30px;
+}
+
+/* Responsividade para o Main */
+@media screen and (max-width: 768px) {
+  .main__title {
+    font-size: 28px;
+  }
+  .main__description {
+    font-size: 16px;
+  }
+}

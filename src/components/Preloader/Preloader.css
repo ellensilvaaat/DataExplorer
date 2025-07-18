@@ -1,0 +1,30 @@
+/* src/components/Preloader/Preloader.css */
+.preloader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 150px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.preloader__spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-top: 4px solid #007bff; /* Cor do spinner */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite; /* Animação de rotação */
+  margin-bottom: 10px;
+}
+
+.preloader__text {
+  font-size: 16px;
+  color: #555;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

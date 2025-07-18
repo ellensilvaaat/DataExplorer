@@ -1,0 +1,29 @@
+/* src/components/Header/Header.css */
+.header {
+  background-color: #f8f8f8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 15px 20px;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.header__logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: #333;
+  text-decoration: none;
+}
+
+/* Responsividade para o Header */
+@media screen and (max-width: 768px) {
+  .header__container {
+    flex-direction: column;
+    gap: 15px;
+  }
+}

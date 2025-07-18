@@ -1,0 +1,42 @@
+/* src/components/Navigation/Navigation.css */
+.navigation__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 25px;
+}
+
+.navigation__link {
+  font-size: 18px;
+  color: #555;
+  text-decoration: none;
+  padding: 5px 0;
+}
+
+.navigation__link:hover {
+  color: #000;
+}
+
+.navigation__button {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.navigation__button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsividade para a Navigation */
+@media screen and (max-width: 768px) {
+  .navigation__list {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+}

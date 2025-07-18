@@ -1,0 +1,77 @@
+/* src/index.css */
+/* Normalize básico - sem ser um reset.css completo */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden; /* Evita rolagem horizontal indesejada */
+}
+
+/* Conexão da fonte Inter Regular (peso 400) */
+@font-face {
+  font-family: 'Inter';
+  src: url('./fonts/Inter18pt-Regular.woff2') format('woff2'),
+       url('./fonts/Inter18pt-Regular.woff') format('woff');
+  font-weight: 400; /* Corresponde ao peso Regular */
+  font-style: normal;
+}
+
+/* Conexão da fonte Inter Bold (peso 700) */
+@font-face {
+  font-family: 'Inter';
+  src: url('./fonts/Inter28pt-Bold.woff2') format('woff2'),
+       url('./fonts/Inter28pt-Bold.woff') format('woff');
+  font-weight: 700; /* Corresponde ao peso Bold */
+  font-style: normal;
+}
+
+body {
+  font-family: 'Inter', Arial, sans-serif; /* Define a fonte principal para o body */
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Estilos base para o contêiner principal do App */
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex-grow: 1; /* Faz o conteúdo principal ocupar o espaço restante */
+  max-width: 1280px; /* Largura máxima para o conteúdo */
+  margin: 0 auto; /* Centraliza */
+  padding: 20px;
+  width: 100%;
+}
+
+/* Microanimações e foco para links e botões */
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: opacity 0.3s ease;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+button {
+  transition: opacity 0.3s ease;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:focus, input:focus, textarea:focus {
+  outline: 2px solid #007bff; /* Destaque ao focar */
+  outline-offset: 2px;
+}
