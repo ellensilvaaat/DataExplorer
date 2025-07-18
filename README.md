@@ -4,7 +4,7 @@
 
 ## Sobre o Projeto
 
-Este é um aplicativo front-end de "Explorador de Dados", desenvolvido como parte do Projeto Final do curso de **[Nome do Curso, se houver, ex: Desenvolvedor Web]**. O objetivo principal deste projeto é demonstrar habilidades em **Marcação e JSX** com React, e a **conexão com uma API de terceiros** para buscar e exibir informações.
+Este é um aplicativo front-end de "Explorador de Dados", desenvolvido como parte do Projeto Final do curso de **Desenvolvedor Web (TripleTen)**. O objetivo principal deste projeto é demonstrar habilidades em **Marcação e JSX** com React, e a **conexão com uma API de terceiros** para buscar e exibir informações.
 
 O aplicativo permite aos usuários explorar dados através de uma interface intuitiva, carregando informações de uma API externa e apresentando-as de forma clara e organizada.
 
@@ -37,10 +37,9 @@ Para rodar este projeto em sua máquina local, siga os passos abaixo:
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [URL_DO_SEU_REPOSITORIO_GITHUB_AQUI]
-    cd ExploradorDeDados
+    git clone [https://github.com/ellensilvaaat/DataExplorer.git](https://github.com/ellensilvaaat/DataExplorer.git)
+    cd DataExplorer
     ```
-    *(**Importante**: Substitua `[URL_DO_SEU_REPOSITORIO_GITHUB_AQUI]` pela URL real do seu repositório GitHub.)*
 
 2.  **Instale as dependências:**
     Utilizando npm:
@@ -70,7 +69,7 @@ Para rodar este projeto em sua máquina local, siga os passos abaixo:
 
 Este projeto está implantado e pode ser acessado online através do seguinte link:
 
-**[COLOQUE A URL DO SEU PROJETO IMPLANTADO AQUI (Netlify/Vercel)]**
+**https://data-explorer-nine.vercel.app/**
 
 ---
 
