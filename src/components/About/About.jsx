@@ -17,9 +17,7 @@ function About() {
       </p>
       <h3 className="about__subtitle">Sobre o Autor</h3>
       <p className="about__paragraph">
-        Meu nome é Ellen Silva e sou um desenvolvedora front-end em formação.
-        Este projeto representa a culminação de muitos aprendizados e desafios superados.
-      </p>
+      Meu nome é Ellen Silva e sou uma profissional versátil e determinada, com formação técnica e experiência prática em diferentes áreas. No Brasil, cursei até a metade da graduação em Engenharia e atuei com marketing digital, onde desenvolvi habilidades como designer, analista de marketing, social media, criadora de anúncios e estrategista de prospecção. Desde que cheguei à Austrália, venho me especializando em Cyber Security por meio de um curso de TI, ao mesmo tempo em que finalizo meus estudos em Web Development pela TripleTen.      </p>
     </section>
   );
 }
